@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { ghPages } from "vite-plugin-gh-pages";
 
 export default defineConfig({
-  base: "/SHRI-2025/",
+  base: "/shri2025-task/",
   plugins: [react(), ghPages()],
   publicDir: 'public',
   build: {
